@@ -25,13 +25,13 @@ function moveOutputPlugin() {
 export default defineConfig({
   // base 的寫法：
   // base: '/Repository 的名稱/'
-  base: '/web-layout-training-vite/',
+  base: '/Week6-Ticket-Booking/',
   plugins: [
     liveReload(['./layout/**/*.ejs', './pages/**/*.ejs', './pages/**/*.html']),
     ViteEjsPlugin(),
     moveOutputPlugin(),
   ],
-  css: { devSourcemap: true, },
+  
   server: {
     // 啟動 server 時預設開啟的頁面
     open: 'pages/index.html',
