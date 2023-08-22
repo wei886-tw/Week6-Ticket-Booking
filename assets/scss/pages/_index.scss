@@ -7,11 +7,14 @@
 }
 
 .event-img{
-    object-fit: contain; 
-    max-width: 416px; 
-    max-height: 255px;
+    width: 100%;
+    height: auto;
+    max-height: 245px;
+    object-fit: cover;
+
 }
 
-.event-jpeg{
-    object-fit: contain;
+.chatGPT-img{
+    width: 100%;
+
 }
