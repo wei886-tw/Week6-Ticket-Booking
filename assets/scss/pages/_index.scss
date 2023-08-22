@@ -1,20 +1,38 @@
-.bg-img{
-    background-image: url("../images/event/13.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 100%;
-    height: 518px;
+.bg-img {
+	background-image: url("../images/event/13.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: 100%;
+	height: 518px;
 }
 
-.event-img{
+.event-img {
+	width: 100%;
+	height: auto;
+	max-height: 245px;
+	object-fit: cover;
+}
+
+.gpt-img{
     width: 100%;
     height: auto;
-    max-height: 245px;
+    max-height: 317px;
     object-fit: cover;
-
 }
 
-.chatGPT-img{
-    width: 100%;
-
+.swiper {
+	background-color: #000;
+}
+.swiper-wrapper {
+	transition-timing-function: linear;
+}
+.swiper-slide {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 3.2px;
+	width: auto;
+	color: #fbff22;
+	background: #000;
 }
