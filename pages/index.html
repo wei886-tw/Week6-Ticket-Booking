@@ -106,7 +106,7 @@
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/01.jpg" alt="event/01.jpg" class="img-fluid mb-3 evemt-img"
-                style="width: 100%; max-height: 245px;">
+                  style="width: 100%; max-height: 245px;">
                 <h3 class="fs-5 mb-3 noto-tc-serif">邪典電影派對——房間</h3>
                 <p class="mb-4">你有聽說過「大災難家」裡面的主角 Tommy Wiseau
                   製作的「史上最爛的電影」——房間嗎？在美國甚至演變成一種邪教、一種派對的形式，在電影播放的對著螢幕丟湯匙都...
@@ -132,7 +132,7 @@
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/02.jpg" alt="event/02.jpg" class="img-fluid mb-3 evemt-img"
-                style="width: 100%; max-height: 245px;">
+                  style="width: 100%; max-height: 245px;">
                 <h3 class="fs-5 mb-3 noto-tc-serif">怪舞俱樂部</h3>
                 <p class="mb-4">覺得自己的舞蹈細胞異於常人？每次隨著音樂起舞身邊的人總是露出無法理解的表情？來這裡就對了！來參加這場一起跳舞的聚會，也會在每一次的舞會中選出舞步最怪的...</p>
                 </p>
@@ -157,7 +157,7 @@
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/03.jpg" alt="event/03.jpg" class="img-fluid mb-3  evemt-img"
-                style="width: 100%; max-height: 245px;">
+                  style="width: 100%; max-height: 245px;">
                 <h3 class="fs-5 mb-3 noto-tc-serif">哈利波特馬拉松</h3>
                 <p class="mb-4">每次身邊有人開啟哈利波特的話題，自己永遠都是聽不懂的那個麻瓜？看大家在討論魁地奇、用咒語鬥法的時候，自己永遠是陪笑的那個人？穿好你的法袍、帶上你的法杖...</p>
               </div>
@@ -296,47 +296,114 @@
     </div>
 
     <%- include('./layout/swiper'); -%>
+      <!-- rotate card -->
+      <div class="container-xxl mb-10">
+        <div class="row">
+          <ul class="row  row-cols-1 row-cols-md-2 row-cols-lg-4 g-10 g-md-4 mt-0 pe-0">
+            <li class="col mt-0 pe-0">
+              <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+                <h2
+                  class="position-absolute top-0 start-50 fs-6  fs-6  translate-middle bg-white px-3 py-2 fw-bold h2-rotate">
+                  社群活動</h2>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true"
+                  class="img-fluid rotate-img" alt="社群活動" style="min-height: 274px; max-width: 100%">
+                <p class="pt-3 noto-tc-serif">無聲派對-閉閉嘴dancing</p>
+              </div>
+            </li>
+            <li class="col">
+              <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+                <h2 class="position-absolute top-0 start-50 fs-6 translate-middle bg-white px-3 py-2 fw-bold h2-rotate">
+                  藝文活動</h2>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true"
+                  class="img-fluid  rotate-img" alt="藝文活動" style="min-height: 274px; max-width: 100%;">
+                <p class="pt-3 noto-tc-serif">搶救老店大作戰</p>
+              </div>
+            </li>
+            <li class="col">
+              <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+                <h2 class="position-absolute top-0 start-50 fs-6 translate-middle bg-white px-3 py-2 fw-bold h2-rotate">
+                  自我覺察</h2>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true"
+                  class="img-fluid " alt="自我覺察" style="min-height: 274px; max-width: 100%;">
+                <p class="pt-3 noto-tc-serif">內觀修行-部落篇</p>
+              </div>
+            </li>
+            <li class="col">
+              <div class="item border border-2 border-dark p-3 pb-5 position-relative">
+                <h2
+                  class="position-absolute top-0 start-50 fs-6  translate-middle bg-white px-3 py-2 fw-bold h2-rotate">
+                  聯誼活動</h2>
+                <img
+                  src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true"
+                  class="img-fluid  rotate-img" alt="聯誼活動" style="max-height: 274px; min-width: 100%;">
+                <p class="pt-3 noto-tc-serif">賞櫻野餐</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <%- include('./layout/swiper'); -%>
 
-    <div class="container-xxl">
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-        <ul class="row mt-12 list-unstyled">
-          <li class="col">
-            <div class="item border border-2 border-dark p-3 pb-5 position-relative">
-              <h2 class="position-absolute top-0 start-50 translate-middle fs-6 bg-white px-3 py-2 fw-bold h2-transform">社群活動</h2>
-              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/01.jpg?raw=true" class="img-fluid w-100" alt="社群活動">
-              <p class="pt-3">無聲派對-閉閉嘴dancing</p>
+      <!-- follow subscribe -->
+      <div class="container-xxl mb-12">
+        <div class="row d-flex g-7 g-sm-0">
+          <div class="col-12 col-sm-6 h-100">
+            <div class="border border-2 border-primary px-8">
+              <h2>#FOLLOW US</h2>
             </div>
-          </li>
-          <li class="col">
-            <div class="item border border-2 border-dark p-3 pb-5 position-relative">
-              <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">藝文活動</h2>
-              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/02.jpg?raw=true" class="img-fluid w-100" alt="藝文活動">
-              <p class="pt-3">搶救老店大作戰</p>
-            </div>
-          </li>
-          <li class="col">
-            <div class="item border border-2 border-dark p-3 pb-5 position-relative">
-              <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">自我覺察</h2>
-              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/03.jpg?raw=true" class="img-fluid w-100" alt="自我覺察">
-              <p class="pt-3">內觀修行-部落篇</p>
-            </div>
-          </li>
-          <li class="col">
-            <div class="item border border-2 border-dark p-3 pb-5 position-relative">
-              <h2 class="position-absolute top-0 start-50 fs-6 bg-white px-3 py-2 fw-bold h2-transform">聯誼活動</h2>
-              <img src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week6/album/04.jpg?raw=true" class="img-fluid w-100" alt="聯誼活動">
-              <p class="pt-3">賞櫻野餐</p>
-            </div>
-          </li>
-        </ul>
-      </div>  
-    </div>
 
-    <%- include('./layout/footer'); -%>
+            <div class="border border-2 border-primary px-8 py-8">
+              <p class="mb-8">想第一時間獲得新奇有趣的活動資訊？</br>
+                追蹤我們的社群吧！</br>
+                也歡迎你聯繫我們，提供好玩有趣的活動企劃。</p>
+              <div class="d-flex flex-column gap-7 px-0">
+                <a href="">7tao.event@gmail.com</a>
+                <a href="">09123123123</a>
+                <a href="">7TAO七逃</a>
+              </div>
+            </div>
 
-    <!-- <script type="module" src="../main.js"></script> -->
-    <script type="module" src="../main.js"></script>
-    <script src="../assets/js/all.js"></script>
+          </div>
+
+          <div class="col-12 col-sm-6 h-100">
+            <div class="border border-2 border-primary px-8 ">
+              <h2>#SUBSCRIBE US</h2>
+            </div>
+
+            <div class="border border-2 border-primary px-8 py-8">
+              <p class="mb-8">訂閱電子報送折價券！</br>
+                定期精選文章資訊及最新優惠資訊，</br>
+                還不通通給我訂閱起來？
+              </p>
+              <div class="mb-8">
+                <label for="exampleFormControlInput1" class="form-label"></label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="請輸入email">
+              </div>
+            </div>
+
+            <div class="container-fluid bg-primary text-center px-0">
+              <a class="text-white fs-5 py-2" href="#">確認訂閱 >></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- quote -->
+      <div class="container-fluid mx-auto border-top border-3 py-12">
+        <div class="container-xxl text-center">
+          <h3 class="fs-4 noto-tc-serif mb-4">此刻打盹，你將做夢；此刻學習，你將圓夢</h3>
+          <p class="noto-tc-serif">——我也不知道誰說的</p>
+        </div>
+      </div>
+
+      <%- include('./layout/footer'); -%>
+
+          <!-- <script type="module" src="../main.js"></script> -->
+          <script type="module" src="../main.js"></script>
+          <script src="../assets/js/all.js"></script>
 </body>
 
 </html>
