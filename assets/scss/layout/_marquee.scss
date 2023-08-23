@@ -1,0 +1,28 @@
+.marquee-container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.marquee-content {
+	display: inline-block;
+	white-space: nowrap;
+	animation: marquee 20s linear infinite;
+    padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 32px;
+	font-weight: 700;
+	letter-spacing: 3.2px;
+	width: auto;
+	color: #fbff22;
+	background: #000;
+    font-family: 'Noto Serif TC', serif;
+}
+
+@keyframes marquee {
+	0% {
+		transform: translateX(100%);
+	}
+	100% {
+		transform: translateX(-100%);
+	}
+}
