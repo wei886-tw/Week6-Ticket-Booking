@@ -1,11 +1,8 @@
-const swiper = new Swiper(".mySwiper", {
-	slidesPerView: "auto",
-	allowTouchMove: false,
+var swiper = new Swiper(".mySwiper", {
+	spaceBetween: 30,
+	centeredSlides: true,
 	autoplay: {
-		delay: 0,
-		disableOnInteraction: false,
-		reverseDirection: true, //反向
+	  delay: 2500,
+	  disableOnInteraction: false,
 	},
-	loop: true,
-	speed: 50000,
 });
