@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>7TAO 活動訂票網</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-  <link rel="stylesheet" href="../assets/icofont/icofont.css" />
+  <link rel="stylesheet" href="../assets/scss/vendor/icofont/icofont.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
 
       <!--  event genre -->
       <div class="container-xxl px-0">
-        <div class="row row-cols-3 row-cols-lg-6 g-3 mb-11">
+        <div class="row row-cols-3 row-cols-lg-6 g-3 mb-11 mx-0">
           <div class="col">
             <div
               class="card d-flex flex-column align-items-center border border-2 py-6 py-md-12 py-lg-6 py-xl-6 py-xxl-8 px-9 px-md-6 px-xxl-10 h-100">
@@ -88,20 +88,20 @@
       <div class="container-xxl">
         <div class="row border border-3 mb-8">
           <div class="col-12 d-flex justify-between align-items-center py-7 px-8">
-            <h2 class="fs-1">RECENT</h2>
-            <h2 class="noto-tc-serif ms-auto">近期活動</h2>
+            <h2 class="fs-5 fs-md-3 fs-lg-1">RECENT</h2>
+            <h2 class="fs-6 fs-lg-4 noto-tc-serif ms-auto">近期活動</h2>
           </div>
         </div>
       </div>
 
       <!-- recent event cards -->
       <div class="container-xxl">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-7 mb-11 ">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-7 mb-11  ">
           <!-- 邪典電影 -->
-          <div class="col  d-flex align-items-stretch">
-            <div class="card border-0 bg-bg-color mb-8  h-100">
-              <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">19 MAY 2023</h3>
+          <div class="col  d-flex align-items-stretch px-0">
+            <div class="card border-0 bg-bg-color mb-8  h-100 ">
+              <div class="card-header border-0 bg-bg-color ">
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">19 MAY 2023</p>
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/01.jpg" alt="event/01.jpg" class="img-fluid mb-3 evemt-img"
@@ -114,12 +114,12 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
+                  <a href="#" class="d-flex align-items-center">
                     <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>社群活動</p>
+                    <p class="py-3">社群活動</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3">開賣中>></a>
               </div>
             </div>
           </div>
@@ -127,7 +127,7 @@
           <div class="col  d-flex align-items-stretch">
             <div class="card border-0 bg-bg-color mb-8  h-100">
               <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">23 MAY 2023</h3>
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">23 MAY 2023</p>
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/02.jpg" alt="event/02.jpg" class="img-fluid mb-3 evemt-img"
@@ -139,20 +139,20 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
-                    <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>演出</p>
+                  <a href="#" class="d-flex align-items-center">
+                    <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24"  >
+                    <p class="py-3">演出</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3 ">開賣中>></a>
               </div>
             </div>
           </div>
           <!-- 哈利波特馬拉松 -->
-          <div class="col  d-flex align-items-stretch">
+          <div class="col  d-flex align-items-stretch ">
             <div class="card border-0 bg-bg-color mb-8  h-100">
               <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">30 MAY 2023</h3>
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">30 MAY 2023</p>
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/03.jpg" alt="event/03.jpg" class="img-fluid mb-3  evemt-img"
@@ -163,20 +163,20 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
+                  <a href="#" class="d-flex align-items-center">
                     <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>聯誼</p>
+                    <p class="py-3">聯誼</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3">開賣中>></a>
               </div>
             </div>
           </div>
           <!-- 皮卡丘排球大賽 -->
-          <div class="col  d-flex align-items-stretch">
+          <div class="col  d-flex align-items-stretch ">
             <div class="card border-0 bg-bg-color mb-8 h-100">
               <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">12 JUNE 2023</h3>
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">12 JUNE 2023</p>
               </div>
               <div class="card-body p-0 " style="max-width: 100%;">
                 <img src="../assets/images/event/04.jpg" alt="event/04.jpg" class="mb-3 img-fluid"
@@ -189,20 +189,20 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
+                  <a href="#" class="d-flex align-items-center">
                     <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>遊戲競賽</p>
+                    <p class="py-3">遊戲競賽</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3">開賣中>></a>
               </div>
             </div>
           </div>
           <!-- 酒精路跑 -->
-          <div class="col  d-flex align-items-stretch">
+          <div class="col  d-flex align-items-stretch ">
             <div class="card border-0 bg-bg-color mb-8  h-100">
               <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">25 JUNE 2023</h3>
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">25 JUNE 2023</p>
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/05.jpg" alt="event/05.jpg" class="mb-3 img-fluid"
@@ -215,20 +215,20 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
+                  <a href="#" class="d-flex align-items-center">
                     <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>社群活動</p>
+                    <p class="py-3">社群活動</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3">開賣中>></a>
               </div>
             </div>
           </div>
           <!-- 展覽——我的房間 -->
-          <div class="col  d-flex align-items-stretch">
+          <div class="col  d-flex align-items-stretch px-0">
             <div class="card border-0 bg-bg-color mb-8  h-100">
               <div class="card-header border-0 bg-bg-color px-0">
-                <h3 class="fs-4 fs-lg-3 border-bottom border-3  border-primary">9 July 2023</h3>
+                <p class="fs-4 fs-lg-3 border-bottom border-3  border-primary">9 July 2023</p>
               </div>
               <div class="card-body p-0">
                 <img src="../assets/images/event/06.jpg" alt="event/06.jpg" class="mb-3 img-fluid"
@@ -239,12 +239,12 @@
               <div
                 class="card-footer border-top border-bottom border-primary border-2 bg-bg-color d-flex justify-content-between p-0">
                 <div>
-                  <a href="#" class="d-flex">
+                  <a href="#" class="d-flex align-items-center">
                     <img src="../assets/images/sparkler.png" alt="sparkler.png" width="24" height="24">
-                    <p>展覽</p>
+                    <p class="py-3">展覽</p>
                   </a>
                 </div>
-                <a href="#">開賣中>></a>
+                <a href="#" class="py-3">開賣中>></a>
               </div>
             </div>
           </div>
@@ -263,7 +263,7 @@
 
       <!-- GPT -->
       <div class="container-xxl mb-9">
-        <div class="row d-flex gx-7">
+        <div class="row d-flex gx-7 mx-0">
           <div class="col-12 col-md-7">
             <img src="../assets/images/event/online.jpg" alt="oline.jpg" class="gpt-img ">
           </div>
@@ -346,7 +346,7 @@
 
         <!-- follow subscribe -->
         <div class="container-xxl mb-12">
-          <div class="row d-flex g-7 g-sm-0">
+          <div class="row d-flex  gy-sm-7">
             <div class="col-12 col-sm-6 ">
               <div class="border border-2 border-primary border-end-0 px-8 ">
                 <h2>#FOLLOW US</h2>
@@ -444,7 +444,7 @@
 
           <!-- <script type="module" src="../main.js"></script> -->
           <script type="module" src="../main.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
 </body>
 
 </html>

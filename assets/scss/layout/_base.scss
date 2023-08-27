@@ -1,4 +1,5 @@
 body {
+	box-sizing: border-box;
 	ul {
 		list-style: none;
 	}
@@ -8,6 +9,11 @@ body {
 			transform: scale(1.1);
 		}
 	}
+
+	img{
+		display: block;
+	}
 	
 }
+
 

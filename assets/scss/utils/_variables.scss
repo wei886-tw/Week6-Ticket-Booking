@@ -349,7 +349,7 @@ $enable-grid-classes:         true !default;
 $enable-container-classes:    true !default;
 $enable-cssgrid:              false !default;
 $enable-button-pointers:      true !default;
-$enable-rfs:                  true !default;
+$enable-rfs:                  true !default; 
 $enable-validation-icons:     true !default;
 $enable-negative-margins:     false !default;
 $enable-deprecation-messages: true !default;
@@ -407,7 +407,9 @@ $spacers: (
 // scss-docs-start position-map
 $position-values: (
   0: 0,
+  25: 25%,//custom
   50: 50%,
+  75: 75%, //custom
   100: 100%
 ) !default;
 // scss-docs-end position-map
@@ -451,7 +453,7 @@ $grid-breakpoints: (
   sm: 576px,
   md: 768px,
   lg: 992px,
-  xl: 1350px, //custom
+  xl: 1200px, 
   xxl: 1400px
 ) !default;
 // scss-docs-end grid-breakpoints

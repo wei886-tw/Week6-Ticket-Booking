@@ -1,13 +1,15 @@
-.marquee-container {
-	width: 100%;
-	overflow: hidden;
+body {
+	font-family: "Noto Serif TC", serif;
 }
-
-.marquee-content {
-	display: inline-block;
-	white-space: nowrap;
-	animation: marquee 120s linear infinite;
-    padding-top: 24px;
+.swiper {
+	background-color: #000;
+}
+.swiper-wrapper {
+	transition-timing-function:  linear infinite;
+	
+}
+.swiper-slide {
+	padding-top: 24px;
 	padding-bottom: 24px;
 	font-size: 32px;
 	font-weight: 700;
@@ -15,14 +17,5 @@
 	width: auto;
 	color: #fbff22;
 	background: #000;
-    font-family: 'Noto Serif TC', serif;
-}
-
-@keyframes marquee {
-	0% {
-		transform: translateX(100%);
-	}
-	100% {
-		transform: translateX(-100%);
-	}
+	text-align: center;
 }
