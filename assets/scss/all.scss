@@ -8,7 +8,8 @@
 // @import '.layout'
 @import './layout/base.scss';
 @import './layout/font.scss';
-@import './layout/header.scss';
+@import './vendor/icofont/icofont.css';
+@import './layout/header.scss';    
 @import './layout/footer.scss';
 @import './layout/marquee.scss';
 

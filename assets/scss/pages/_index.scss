@@ -73,6 +73,22 @@
 	object-fit: cover;
 }
 
+.hover-underline{
+	p:hover{
+		text-decoration: underline;
+		color: black;
+
+	}
+}
+
+.hover-yellow{
+	span:hover{
+		background-image: url(http://www.w3.org/2000/svg);
+	
+	}
+	
+}
+
 // gpt
 .gpt-img {
 	width: 100%;
@@ -112,3 +128,4 @@
     object-fit: cover;
 
 }
+
